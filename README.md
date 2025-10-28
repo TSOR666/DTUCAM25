@@ -1,6 +1,6 @@
 # DTUTMO
 
-DTUTMO (DTU Tone Mapping Operator) is a biologically inspired high dynamic range (HDR) tone mapping pipeline. It models optical, retinal, and neural stages of the human visual system to convert HDR imagery into perceptually faithful standard dynamic range (SDR) or HDR display encodings.
+DTUTMO (DTU Tone Mapping Operator) is a biologically inspired high dynamic range (HDR) tone mapping pipeline. It models optical, retinal, and neural stages of the human visual system to convert HDR imagery into perceptually faithful standard dynamic range (SDR) or HDR display encodings. Please refer to the [wiki](https://github.com/TSOR666/DTUCAM25/wiki) for the technical details. 
 
 ## Features
 
