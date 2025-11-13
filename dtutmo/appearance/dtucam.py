@@ -205,7 +205,7 @@ class DTUCAM:
 
     def _degree_of_adaptation(self, luminance: float, surround: str) -> float:
         surround_factor = {"dark": 0.8, "dim": 0.9, "average": 1.0}.get(surround, 0.9)
-        exponent = -(luminance + 42.0) / 92.0
+        exponent = -(luminance - 42.0) / 92.0
         degree = surround_factor * (1.0 - (1.0 / 3.6) * np.exp(exponent))
         return float(np.clip(degree, 0.0, 1.0))
 
