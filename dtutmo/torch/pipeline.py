@@ -10,8 +10,8 @@ from typing import Dict, Optional, Union
 import torch
 
 from dtutmo.core.config import CAMType, DTUTMOConfig, DisplayMapping, DisplayStandard, ViewingCondition
+from dtutmo.adaptation.display import DisplayAdaptation as CpuDisplayAdaptation
 from dtutmo.display import (
-    DisplayAdaptation as CpuDisplayAdaptation,
     DisplayOutputConfig,
     DisplayOutputMapper,
     HybridDisplayConfig,
